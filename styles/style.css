@@ -91,6 +91,10 @@ nav a {
   }
 }
 
+.bg-color{
+  background: rgba(255, 144, 14, 0.1);
+}
+
 /*-----navbar  End---*/
 
 /*---- head start--- */
@@ -220,3 +224,79 @@ nav a {
 }
 
 /* First section end */
+
+/* -- second section start -- */
+
+.Experience {
+  width: 90%;
+  justify-content: center;
+  display: flex;
+  gap: 100px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.info-img img {
+  width: 80%;
+ 
+}
+
+.year {
+  background-color: orange;
+  padding: 40px;
+  position: absolute;
+  top: 83%;
+  display: block;
+  color: white;
+  display: block;
+  border-radius: 10px;
+}
+
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 30px;
+}
+
+.heading-title {
+  font-weight: 600;
+  padding: 10px;
+
+  border-left: 2px solid orange;
+}
+
+.heading-p {
+  margin: 10px 0px;
+  color: #888888;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.cards {
+  margin: 9px;
+  padding: 15px;
+  width: 90%;
+  min-height: 72px;
+  display: grid;
+ background-color: rgba(216, 245, 255, 0.259);
+  grid-template-rows: 0px 29px 1fr 88px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgb(0 0 0 / 25%);
+  transition: all 0.2s;
+}
+
+.card-p {
+  position: relative;
+  top: 30px;
+  color: #727272;
+ 
+}
+ 
+  /* second section end */
+
+
+
+
