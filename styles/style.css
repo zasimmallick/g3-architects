@@ -297,6 +297,90 @@ nav a {
  
   /* second section end */
 
+  /* third section start */
 
+  .Cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 60px;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
 
+  }
+  
+  .some-text {
+    text-align: center;
+    margin-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .some-text h2 {
+    font-size: 4vh;
+    color: blueviolet;
+  }
+  .some-text p {
+    font-size: 2vh;
+    color: rgb(134, 124, 124);
+  }
+  
+  .container .facts-card .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
+  .container .facts-card .slide {
+    width: 140px;
+    border: 1px solid orange;
+    height: 160px;
+    transition: 0.5s;
+  }
+  .container .facts-card .slide.slide1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    transition: 0.7s;
+    transform: translateY(100px);
+  }
+  
+  .container .facts-card:hover .slide.slide1 {
+    transform: translateY(0px);
+  }
+  
+  .container .facts-card .slide.slide2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    transform: translateY(-100px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.567);
+  }
+  
+ .Cards p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+  }
+  
+  .Cards h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+  }
+
+  /* third section end */
