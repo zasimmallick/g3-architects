@@ -78,7 +78,7 @@ nav a {
   nav ul ul ul li {
     position: static;
   }
-}
+
 
 .bg-color{
   background: rgba(255, 144, 14, 0.1);
@@ -90,7 +90,7 @@ nav a {
 
 .banner-title {
   font-size: 3.5vh;
-  color: ;
+ 
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 10px;
 }
