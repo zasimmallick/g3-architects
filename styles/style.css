@@ -419,3 +419,35 @@ nav a {
   }
 
   /* extra section end */
+
+  /* fourth section start */
+
+  .spons {
+    text-align: center;
+    margin-top: 200px;
+  }
+  .spons span {
+   
+    padding: 15px;
+    border-radius: 3px;
+   
+  }
+
+  .spons p {
+   top: 20px ;
+   color: #727272;
+  }
+  
+  .Sponsor {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 29px;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 60px;
+  }
+
+  /* fourth section end */
