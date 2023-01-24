@@ -63,17 +63,6 @@ nav a {
   text-decoration: none;
 }
 
-/* Media Queries
----------------- */
-
-@media all and (max-width: 768px) {
-  #g3 {
-    display: block;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    float: none;
-  }
 
   nav {
     margin: 0;
@@ -392,17 +381,21 @@ nav a {
     display: flex;
     width: 80%;
     margin-top: 200px;
-    border: 2px solid blue;
     align-items: center;
     justify-content: space-evenly;
     padding: 30px;
     gap: 20px;
     flex-direction: row-reverse;
   }
+
+  .extra-text{
+    margin-left: 100px;
+  }
   
   .extra img {
     width: 100%;
     border-radius: 5px;
+   
   }
   .extra img:hover {
     box-shadow: 1px 1px 2px 2px blueviolet;
@@ -451,3 +444,103 @@ nav a {
   }
 
   /* fourth section end */
+
+
+  /* footer start */
+
+  .footer p{
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    background-color: lightgreen;
+    height: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 2px;
+  }
+
+  /* footer end */
+
+
+  /*------------
+   Media Queries
+---------------- */
+
+@media all and (max-width: 768px) {
+  #g3 {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+
+  @media screen and (max-width: 660px){
+    nav{
+      flex-direction: column;
+    } 
+  }
+
+  @media all and (max-width: 768px) {
+    .Cards {
+      display: flex;
+      flex-direction: column;
+      display: none;
+      background-color: #f1f1f1;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .Cards {
+      display: flex;
+      flex-direction: column;
+      display: none;
+      background-color: #f1f1f1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .First-container .box:hover .content {
+      transform: translate(0, 3.5rem);
+    }
+    .First-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .First-container .box:hover .imgBox {
+      transform: translate(0, -3.5rem);
+    }
+  
+    .First-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .First-section {
+      flex-direction: column-reverse;
+    }
+    .year {
+      display: none;
+    }
+  
+    .extra {
+      flex-direction: column;
+    }
+  
+    .spons  {
+      flex-direction: column-reverse;
+    }
+    .First-text {
+      display: none;
+    }
+   
+
+  }
+  @media screen and (max-width: 660px){
+    .Sponsor{
+      flex-direction: column;
+    }
+  }
+  
+@media screen and (max-width: 660px) {
+  .footer p{
+    width:50%;
+  }
+}
