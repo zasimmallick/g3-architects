@@ -93,33 +93,31 @@ nav a {
 
 /*-----navbar  End---*/
 
-.head-title {
+.banner-title {
   font-size: 3.5vh;
   color: ;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 10px;
 }
-.head-text p {
+.banner-text p {
   font-size: 2vh;
   color: gray;
   margin-bottom: 10px;
 }
 
-.btn {
+.button {
   background-color: navy;
   padding: 15px;
   font-size: 2vh;
-  /* font-weight: 700px; */
-  /* margin-top: 10px; */
   color: white;
   border-radius: 5px;
 }
-.btn:hover {
+.button:hover {
   background-color: white;
   color: black;
 }
 
-.head-text {
+.banner-text {
   display: flex;
   text-align: center;
   align-items: center;
@@ -130,14 +128,14 @@ nav a {
   margin-top: 50px;
 }
 
-.head-img {
+.banner-img {
   display: flex;
   margin-top: 50px;
   margin: 0 auto;
   height: 50%;
   padding: 20px;
 }
-.head-img img {
+.banner-img img {
   width: 80%;
   height: 70%;
   margin: 0 auto;
