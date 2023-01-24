@@ -466,14 +466,16 @@ nav a {
    Media Queries
 ---------------- */
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px){
   #g3 {
-    display: block;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    float: none;
-  }
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+}
+  
 
   @media screen and (max-width: 660px){
     nav{
@@ -530,9 +532,9 @@ nav a {
     .First-text {
       display: none;
     }
-   
-
   }
+
+  
   @media screen and (max-width: 660px){
     .Sponsor{
       flex-direction: column;
@@ -544,3 +546,4 @@ nav a {
     width:50%;
   }
 }
+
